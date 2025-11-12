@@ -1,0 +1,7 @@
+{
+  "buildCommand": "cd frontend && npx prisma generate && next build",
+  "outputDirectory": ".next",
+  "framework": "nextjs",
+  "nodeVersion": "20.x",
+  "rootDirectory": "frontend"
+}
