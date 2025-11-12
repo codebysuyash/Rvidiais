@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "cd frontend && next build",
+    "postinstall": "npx prisma generate --schema=frontend/prisma/schema.prisma",
+    "build": "npx prisma generate --schema=frontend/prisma/schema.prisma && cd frontend && next build",
     "dev": "cd frontend && next dev",
     "dev:gmail": "cd frontend && cross-env FORCE_GMAIL=true next dev",
     "lint": "cd frontend && next lint",
