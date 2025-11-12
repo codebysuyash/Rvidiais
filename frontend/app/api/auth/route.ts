@@ -5,6 +5,7 @@ import { getUserById } from "@/lib/user";
 const AUTH_COOKIE_NAME = "auth_token";
 
 export const dynamic = "force-dynamic";
+export const revalidate = 0;
 
 export async function GET(request: NextRequest) {
   try {
