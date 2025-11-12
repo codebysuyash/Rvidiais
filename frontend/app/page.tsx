@@ -1,5 +1,6 @@
 "use client";
 
+// Build: 2025-11-12 - Vercel deployment with Prisma client generation fix
 import { useAuthContext } from "@/components/auth-provider";
 import { GoogleSignInButton } from "@/components/google-sign-in-button";
 import { RoleDemoInfo } from "@/components/role-demo-info";
