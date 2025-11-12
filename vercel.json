@@ -1,6 +1,4 @@
 {
   "buildCommand": "cd frontend && npx prisma generate && next build",
-  "outputDirectory": ".next",
-  "framework": "nextjs",
-  "rootDirectory": "frontend"
+  "outputDirectory": "frontend/.next"
 }
